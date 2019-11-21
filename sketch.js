@@ -20,9 +20,9 @@ function draw() {
   // image(imgocchi, 0 + map(rotationY, 0, 360, 1, width), 0 + map(rotationX, -180, 180, 1, width), imgocchi.width, imgocchi.height)
   // image(imgcover.height, 0 , 0, imgsfondo.width, imgcover.height)1290, 1920
 
-  image(imgcover, 0 , 0, 645 , 960);
-  image(imgocchi, 0 + map(rotationY, 0, 360, 1, width), 0 + map(rotationX, -180, 180, 1, width), 645 , 960)
-  image(imgsfondo, 0 , 0, 645 , 960);
+  image(imgcover, 0 , 0, width , height);
+  image(imgocchi, 0 + map(rotationY, 0, 360, 1, width), 0 + map(rotationX, -180, 180, 1, width), width , height)
+  image(imgsfondo, 0 , 0, width , height);
 }
 
 function touchMoved(){
