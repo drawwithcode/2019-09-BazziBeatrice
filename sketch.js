@@ -28,7 +28,7 @@ function draw() {
   textSize(60);
   fill(233,216,157);
   text(myText, width/2, height/1.3);
-  text(myText2, width/2, height/1.25);
+  text(myText2, width/2, height/1.23);
 
 }
 
