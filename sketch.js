@@ -4,9 +4,9 @@ var imgcover;
 
 function preload(){
 
-  imgsfondo = loadImage("/assets/bg.png");
-  imgocchi = loadImage("/assets/eyes.png");
-  imgcover = loadImage("/assets/cover2.png");
+  imgsfondo = loadImage("./assets/bg.png");
+  imgocchi = loadImage("./assets/eyes.png");
+  imgcover = loadImage("./assets/cover2.png");
 }
 
 function setup() {
